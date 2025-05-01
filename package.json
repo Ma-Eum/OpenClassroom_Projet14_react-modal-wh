@@ -1,10 +1,17 @@
 {
-  "name": "react-modal-wh",
-  "version": "1.0.0",
+  "name": "react-modal-wh-maeum",
+  "version": "1.0.1",
   "description": "Composant Modal réutilisable pour applications React - WealthHealth",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
@@ -14,23 +21,12 @@
     "type": "git",
     "url": "git+https://github.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh.git"
   },
-  "keywords": [
-    "react",
-    "modal",
-    "component",
-    "reusable",
-    "vite",
-    "wealthhealth"
-  ],
+  "keywords": ["react", "modal", "component", "reusable", "vite", "wealthhealth"],
   "author": "Ma-Eum",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh/issues"
-  },
-  "homepage": "https://github.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh#readme",
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
