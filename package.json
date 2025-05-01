@@ -1,17 +1,16 @@
 {
   "name": "react-modal-wh-maeum",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Composant modal réutilisable en React avec Vite",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-  ".": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
-  }
-,
+  },
   "files": [
     "dist"
   ],
