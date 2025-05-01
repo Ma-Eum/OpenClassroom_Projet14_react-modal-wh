@@ -1,6 +1,6 @@
 {
   "name": "react-modal-wh-maeum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Composant Modal réutilisable pour applications React - WealthHealth",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -21,7 +21,14 @@
     "type": "git",
     "url": "git+https://github.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh.git"
   },
-  "keywords": ["react", "modal", "component", "reusable", "vite", "wealthhealth"],
+  "keywords": [
+    "react",
+    "modal",
+    "component",
+    "reusable",
+    "vite",
+    "wealthhealth"
+  ],
   "author": "Ma-Eum",
   "license": "MIT",
   "peerDependencies": {
