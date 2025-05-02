@@ -9,6 +9,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'src/index.js'),
       name: 'ReactModalWhMaeum',
       fileName: (format) => `index.${format}.js`,
+      formats: ['es', 'cjs'], // ⛔ on supprime 'umd'
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
