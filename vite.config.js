@@ -1,7 +1,3 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
-
 export default defineConfig({
   plugins: [react()],
   build: {
@@ -9,10 +5,9 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'src/index.js'),
       name: 'ReactModalWhMaeum',
       fileName: (format) => `index.${format}.js`,
-      formats: ['es', 'cjs'], // ⛔ on supprime 'umd'
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
         globals: {
           react: 'React',
