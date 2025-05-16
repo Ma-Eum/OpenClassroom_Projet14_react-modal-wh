@@ -61,16 +61,16 @@ export default function App() {
 
 ### 🔍 Capture d'écran du code :
 
-![Extrait de code](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_HRnet/main/hrnet-react/src/assets/images/importModal.png)
+![Extrait de code](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh/refs/heads/main/public/assets/images/importModal.png)
 
-![Extrait de code](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_HRnet/main/hrnet-react/src/assets/images/utilisationModal.png)
+![Extrait de code](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh/refs/heads/main/public/assets/images/utilisationModal.png)
 
 ---
 
 ## 📸 Résultat visuel
 
 
-![Résultat visuel](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_HRnet/main/hrnet-react/src/assets/images/resultat-modale.png)
+![Résultat visuel](https://raw.githubusercontent.com/Ma-Eum/OpenClassroom_Projet14_react-modal-wh/refs/heads/main/public/assets/images/resultat-modale.png)
 
 ---
 
